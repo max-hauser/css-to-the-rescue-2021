@@ -4,7 +4,17 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 
 ## Week 1: Het plan
 
+#### In het kort:
 - Ik heb gekozen voor het maken van een **digitaal tijdschrift**
-- Als context heb ik **[display-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode)** gebruikt
-- Ik heb twee eisen: ik mag maar **2 kleuren gebruiken** en als tweede eis heb ik dat de webpagina moet **voldoen aan level AAA van de WCAG**
+- Als context heb ik **[display-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode)** gekozen
+- Ik heb twee eisen:
+- - ik mag maar **2 kleuren gebruiken**
+- - de webpagina moet **voldoen aan level AAA van de WCAG**
 - **Geen** id's of classes/ **javascript** gebruiken
+
+#### CSS technieken
+
+
+#### Grootste uitdagingen
+
+De grootste uitdaging zal voor mij zijn om de code op de juiste manier te schrijven.
