@@ -14,6 +14,7 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 
 #### CSS technieken
 
+Ik zal nog gaan kijken welke css technieken ik zal gebruiken.
 
 #### Grootste uitdagingen
 
