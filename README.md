@@ -19,3 +19,7 @@ Ik zal nog gaan kijken welke css technieken ik zal gebruiken.
 #### Grootste uitdagingen
 
 De grootste uitdaging zal voor mij zijn om de code op de juiste manier te schrijven.
+
+#### Inspiratie
+
+[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)
