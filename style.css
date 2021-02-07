@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+}
+
+body > header {
+  grid-area: header;
+  background-color: turquoise;
+  text-align: center;
+  padding: 10vh;
+}
+
+body > header h1{
+  font-size: 5vw;
+}
+
+body > header p{
+  margin-bottom: 0px;
+}
+main section:nth-child(1) {
+  grid-area: loop;
+  background-color: orange;
+}
+
+main section:nth-child(2) {
+  grid-area: sandwiches;
+  background-color: blue;
+}
+
+main section:nth-child(3) {
+  grid-area: shared;
+  background-color: yellow;
+}
+
+main section:nth-child(4) {
+  grid-area: eggs;
+  background-color: purple;
+}
+
+main section:nth-child(5) {
+  grid-area: soup;
+  background-color: pink;
+}
+
+main section:nth-child(6) {
+  grid-area: salad;
+  background-color: green;
+}
+
+main section:nth-child(7) {
+  grid-area: sweets;
+  background-color: brown;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 30%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "header header header header header header"
+  "loop loop sandwiches sandwiches sandwiches sandwiches"
+  "shared eggs eggs eggs eggs eggs"
+  "soup soup soup soup soup soup"
+  "salad salad salad salad salad salad"
+  "sweets sweets sweets sweets sweets sweets";
+  margin: 0px;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
