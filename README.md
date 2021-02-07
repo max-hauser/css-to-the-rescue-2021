@@ -6,10 +6,10 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 
 #### In het kort:
 - Ik heb gekozen voor het maken van een **digitaal tijdschrift**
-- Als context heb ik **[display-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode)** gekozen
+- Als context heb ik **print-stylesheet** gekozen
 - Ik heb twee eisen:
 - - ik mag maar **2 kleuren gebruiken**
-- - de webpagina moet **voldoen aan level AAA van de WCAG**
+- - Responsive **zonder** media queries
 - **Geen** id's of classes/ **javascript** gebruiken
 
 #### CSS technieken
