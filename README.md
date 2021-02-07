@@ -5,7 +5,7 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 ## Week 1: Het plan
 
 #### In het kort:
-- Ik heb gekozen voor het maken van een **digitaal tijdschrift**
+- Ik heb gekozen voor het maken van een **menu**
 - Als context heb ik **print-stylesheet** gekozen
 - Ik heb twee eisen:
 - - ik mag maar **2 kleuren gebruiken**
