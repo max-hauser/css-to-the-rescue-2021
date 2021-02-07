@@ -23,3 +23,8 @@ De grootste uitdaging zal voor mij zijn om de code op de juiste manier te schrij
 #### Inspiratie
 
 [moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)
+
+#### Schetsen:
+
+![menu-top](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/docs/img/menu-top.jpg)
+![menu-bottom](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/docs/img/menu-bottom.jpg)
