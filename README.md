@@ -28,3 +28,7 @@ De grootste uitdaging zal voor mij zijn om de code op de juiste manier te schrij
 
 ![menu-top](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/docs/img/menu-top.jpg)
 ![menu-bottom](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/docs/img/menu-bottom.jpg)
+
+#### Eerste ideeën
+
+Ik denk dat het verstandig is om de layout met grid te doen, dus daar zal ik me eerst op focussen.
