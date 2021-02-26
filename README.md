@@ -2,6 +2,13 @@
 
 Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudenten een CSS Zen Garden maken. Dit was een initiatief om de mogelijkheden van CSS te exploreren door iedere developer de zelfde HTML te geven, maar de css is telkens uniek. Dit ga ik tijdens CSS TTR ook doen.
 
+## live link
+[https://max-hauser.github.io/css-to-the-rescue-2021/](https://max-hauser.github.io/css-to-the-rescue-2021/)
+
+## poster
+
+![poster](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/images/poster.png)
+
 ## Week 1: Het plan
 
 #### In het kort:
