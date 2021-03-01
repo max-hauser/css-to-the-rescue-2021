@@ -44,3 +44,9 @@ Dit was voor mij echt een openbaring! Opeens kon ik met 1 enkel element oneindig
 
 Voor dit project heb ik alleen aantal radio-buttons toegevoegd voor het scherm. Maar verder is alles toegevoegd met background linear-gradient! 
 Als extra heb ik ook gespeeld met lichtval en skew(). Dit geeft het een 3d gevoel. Vooral door het licht en de schadow toevoegingen.
+
+## Wat heeft mij het meest uitgedaagd?
+
+Wat mij het meeste heeft uitgedaagd was het juist animeren van het bonnetje dat uit het apparaat moest komen. met height 0 => height auto, werkte niet. Dus na lang googlen kwam ik op -webkit-mask-image. Met deze methode kon ik een deel van het bonnetje transparant maken, echter dit animeerde niet mooi uit zichzelf. Uiteindelijk heb ik het via heel keyframes een soort van kunnen oplossen:
+
+
