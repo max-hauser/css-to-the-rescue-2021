@@ -34,15 +34,27 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 Nadat ik klaar was met webapp from scratch kon ik me volledig focussen op css to the rescue. Eerder had ik een plan en een schets (zie afbeelding hierboven) gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor.
 
 ## Nieuw plan!
-Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leidde vanzelf tot het toevoegen van een apparaat en een omgeving waarin het apparaat zich bevond.
+Van de gastcollges die ik gezien heb, was ik vooral onder de indruk van https://a.singlediv.com/. Hierom besloot ik om te proberen om van het menu een realistische bon te maken. Dit leidde vanzelf tot het toevoegen van een apparaat en een omgeving waarin het apparaat zich bevond.
 
 ## Wat heb ik geleerd
 
 Ik heb iets totaal nieuws geleerd: background: linear-gradient(...), linear-gradient(...), ....
-Dit was voor mij echt een openbaring! Opeens kon ik met 1 enkel element oneindig veel visuele elementen toevoegen zonder html nodig te hebben. Ik was vooral onder de indruk van https://a.singlediv.com/.
+Dit was voor mij echt een openbaring! Opeens kon ik met 1 enkel element oneindig veel visuele elementen toevoegen zonder html nodig te hebben. 
 
 Voor dit project heb ik alleen aantal radio-buttons toegevoegd voor het scherm. Maar verder is alles toegevoegd met background linear-gradient! 
 Als extra heb ik ook gespeeld met lichtval en skew(). Dit geeft het een 3d gevoel. Vooral door het licht en de schadow toevoegingen.
+
+## Uitgelichte feature
+
+Wat mijn project speciaal maakt is dat het bon-apparaat interactief is. Dit heb ik gedaan door gebruik te maken van de "checkbox hack", of in mijn geval de "radio button hack".
+
+```css
+input[type="radio"]:nth-child(13):checked ~ section:nth-child(21) {
+  animation: slideDown 0.5s ease-in-out forwards;
+}
+```  
+
+Hierbij verberg je de daadwerkelijke radio buttons, maar link je de labels waar je vervolgens op kunt klikken. Dit stelt je instaat om een element aan te spreken als er geklikt is om zo'een radio button. Waar je wel rekening mee moet houden is dat de radiobutton en het te selecteren element de zelfde parent element moeten hebben. Dit zorgde voor een extra uitdaging omdat ik alles nu in de main moest doen.
 
 ## Wat heeft mij het meest uitgedaagd?
 
