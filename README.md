@@ -27,9 +27,15 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 
 ~~[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)~~
 
+# oud plan:
+
+![poster](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/images/idee1.png)
+
+
+
 ## Nieuw plan!
 
-Nadat ik klaar was met webapp from scratch kon ik me volledig focussen op css to the rescue. Eerder had ik een plan en een schets gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor. Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leidde vanzelf tot het toevoegen van een apparaat en een omgeving waarin het apparaat zich bevond.
+Nadat ik klaar was met webapp from scratch kon ik me volledig focussen op css to the rescue. Eerder had ik een plan en een schets (zie afbeelding hierboven) gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor. Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leidde vanzelf tot het toevoegen van een apparaat en een omgeving waarin het apparaat zich bevond.
 
 ## Wat heb ik geleerd
 
