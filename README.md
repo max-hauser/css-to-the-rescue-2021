@@ -13,9 +13,9 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 
 #### In het kort:
 - Ik heb gekozen voor het maken van een **menu**
-- Als context heb ik **print-stylesheet** gekozen
+~~- Als context heb ik **print-stylesheet** gekozen
 - Ik heb twee eisen:
-- - ik mag maar **2 kleuren gebruiken**
+~~- - ik mag maar **2 kleuren gebruiken**
 - - Responsive **zonder** media queries
 - **Geen** id's of classes/ **javascript** gebruiken
 
@@ -25,4 +25,4 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 
 #### Inspiratie
 
-[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)
+~~[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)
