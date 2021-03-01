@@ -26,3 +26,7 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 #### Inspiratie
 
 ~~[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)~~
+
+## Nieuw plan!
+
+Nadat ik klaar was met webapp from scratch kon ik me volldig focussen op css to the rescue. Eerder had ik een plan en een schets gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor. Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leide vanzelf tot het toevoegen van een apparaat
