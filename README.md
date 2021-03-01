@@ -29,7 +29,7 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 
 # oud plan:
 
-![poster](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/images/idee1.png)
+![oudplan](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/images/idee1.png)
 
 
 
@@ -48,5 +48,8 @@ Als extra heb ik ook gespeeld met lichtval en skew(). Dit geeft het een 3d gevoe
 ## Wat heeft mij het meest uitgedaagd?
 
 Wat mij het meeste heeft uitgedaagd was het juist animeren van het bonnetje dat uit het apparaat moest komen. met height 0 => height auto, werkte niet. Dus na lang googlen kwam ik op -webkit-mask-image. Met deze methode kon ik een deel van het bonnetje transparant maken, echter dit animeerde niet mooi uit zichzelf. Uiteindelijk heb ik het via heel keyframes een soort van kunnen oplossen:
+
+
+![keyframes](https://github.com/max-hauser/css-to-the-rescue-2021/blob/master/images/keyframes.png)
 
 
