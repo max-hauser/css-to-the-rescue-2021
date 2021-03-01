@@ -29,4 +29,12 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 
 ## Nieuw plan!
 
-Nadat ik klaar was met webapp from scratch kon ik me volldig focussen op css to the rescue. Eerder had ik een plan en een schets gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor. Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leide vanzelf tot het toevoegen van een apparaat
+Nadat ik klaar was met webapp from scratch kon ik me volledig focussen op css to the rescue. Eerder had ik een plan en een schets gemaakt, maar nadat ik er weer terug op kwam voelde ik er niet veel meer voor. Ik besloot om te proberen op van het menu een realistische bon te maken. Dit leidde vanzelf tot het toevoegen van een apparaat en een omgeving waarin het apparaat zich bevond.
+
+## Wat heb ik geleerd
+
+Ik heb iets totaal nieuws geleerd: background: linear-gradient(...), linear-gradient(...), ....
+Dit was voor mij echt een openbaring! Opeens kon ik met 1 enkel element oneindig veel visuele elementen toevoegen zonder html nodig te hebben. Ik was vooral onder de indruk van https://a.singlediv.com/.
+
+Voor dit project heb ik alleen aantal radio-buttons toegevoegd voor het scherm. Maar verder is alles toegevoegd met background linear-gradient! 
+Als extra heb ik ook gespeeld met lichtval en skew(). Dit geeft het een 3d gevoel. Vooral door het licht en de schadow toevoegingen.
