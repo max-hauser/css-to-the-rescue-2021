@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Luckiest+Guy&display=swap');
 
 html {
-  background: linear-gradient(15deg, #0c2333, #7cc0fb),
-  linear-gradient(15deg, #212d50, #202020),
-  linear-gradient(180deg, #212d50, #150c0c);
+  background: linear-gradient(15deg, #7cc0fb, #7cc0fb),  linear-gradient(15deg, #1f346f, #202020),  linear-gradient(180deg, #212d50, #150c0c);
   background-repeat: no-repeat;
   background-size:
-  80vw 50vh,
-  50vw 180vh,
-  50vw 180vh;
-  background-position: 20vw 0px,
+  60vw 31vh,
+  40vw 300vh,
+  60vw 269vh;
+  background-position:
+  40vw 0vh,
   0vw 0vh,
-  50vw 0vh;
+  40vw 31vh;
 }
 
  body {
@@ -52,35 +51,61 @@ html {
   10vw 10vw, /* boven shadow binnen */
   15vw 15vw, /* boven midden */
   16vw 16vw; /* boven schaduw buiten */
-  background-position:
-  205px 380px,/* onder midden */
-  190px 370px, /* onder shadow binnen */
-  150px 332px, /* onder buitenkant */
-  148px 326px, /* onder shadow buiten */
-  526px 350px, /* boven midden */
-  510px 340px, /* boven shadow binnen */
-  470px 300px, /* boven midden */
+  /* background-position:
+  205px 380px,/* onder midden 
+  190px 370px, /* onder shadow binnen 
+  150px 332px, /* onder buitenkant 
+  148px 326px, /* onder shadow buiten 
+  526px 350px, /* boven midden 
+  510px 340px, /* boven shadow binnen 
+  470px 300px, /* boven midden 
   465px 300px;
   z-index: 9;
   width: 65%;
-  height: 70%;
+  height: 70%; */
+
+  background-position: 19vw 37vw,
+  23vw 38vw,
+  19vw 35vw,
+  16vw 32vw,
+  44vw 36vw,
+  43vw 36vw,  40vw 33vw, 46vw 35vw;
+    z-index: 1;
+    width: 61vw;
+    height: 55vh;
 }
 
 
-body:after {
+/* body:after {
   content: "";
   position: absolute;
-  top: -50px;
-  left: -20vw;
-  width: 150vw;
-  height: 70vh;
   border-bottom: 21px solid rgb(93 31 31);
   border-right: 21px solid rgb(66 9 9);
   background: radial-gradient(circle at 40vw, #8e4646 0, #330808, #2f0e0e 100%);
   background-repeat: no-repeat;
   background-size: contain;
   transform: rotate(-6deg);
+  min-width: 100%;
+  max-width: 120%;
+  width: calc((100px - 100%) * 100);
+  height: 50%;
+} */
+
+body:after {
+  content: "";
+  position: absolute;
+  border-bottom: 21px solid rgb(93 31 31);
+  border-right: 21px solid rgb(66 9 9);
+  background: radial-gradient(circle at 40vw, #8e4646 0, #330808, #2f0e0e 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: rotate(-6deg);
+  top: 0px;
+  margin-left: calc(0px - 130%);
+  width: 220%;
+  height: 50vh;
 }
+
 
 
 body > header{
@@ -90,7 +115,6 @@ body > header{
 main {
   background-color: #202020;
   display: inline-block;
-  left: 20vw;
   width: 250px;
   height: 400px;
   border-radius: 58px;
@@ -100,7 +124,7 @@ main {
   box-shadow: 10px 0px 0px #000;
   bottom: 115px;
   transform: scale(0.7) rotate(-3deg);
-  top: -75px;
+  margin-top: calc(0px - 22%);
   border-right: 31px solid;
 }
 
@@ -346,7 +370,7 @@ body main label:focus {
   outline: none;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
 
 
@@ -392,4 +416,4 @@ body main label:focus {
     width: auto;
     padding: auto;
   }
-}
+} */
