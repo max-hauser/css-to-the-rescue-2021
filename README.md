@@ -14,7 +14,7 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 #### In het kort:
 - Ik heb gekozen voor het maken van een **menu**
 - Als context heb ik **print-stylesheet** gekozen
-- Ik heb twee eisen:~~
+- Ik heb twee eisen:
 - - Ik ben lid geworden van **de one-div movement**
 - - Responsive **zonder** media queries
 - **Geen** id's of classes/ **javascript** gebruiken
