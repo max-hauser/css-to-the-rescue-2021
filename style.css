@@ -208,7 +208,7 @@ section{
   70%{-webkit-mask-image: linear-gradient(black, transparent 70%)}
   80%{-webkit-mask-image: linear-gradient(black, transparent 80%)}
   90%{-webkit-mask-image: linear-gradient(black, transparent 90%)}
-  100%{-webkit-mask-image: linear-gradient(black, transparent 300%)}
+  100%{-webkit-mask-image: linear-gradient(black, transparent 300%); display: block;}
 }
 
 input[type="radio"]:nth-child(1):checked ~ section:nth-child(15),
@@ -341,3 +341,55 @@ input[type="radio"]:checked + label{
   background: #63b7d2;
 }
 
+body main label:focus {
+  background: #63b7d2;
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+  html {
+    background: #0c2333;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: unset;
+    height: auto;
+  }
+
+  body:before{
+    display: none;
+  }
+
+  body {
+    transform: unset;
+    width: 100vw;
+  }
+
+  body:after {
+    transform: unset;
+    border: none;
+    width: 100%;
+    left: 0;
+    min-height: 100vh;
+
+  }
+
+  main {
+    transform: unset;
+    border: none;
+    left: auto;
+    box-shadow: none;
+  }
+
+  main:after{
+
+  }
+
+  main section {
+    transform: unset;
+    width: auto;
+    padding: auto;
+  }
+}
