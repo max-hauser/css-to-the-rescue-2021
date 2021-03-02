@@ -12,12 +12,12 @@ Voor de eindopdracht van CSS-To-The-Rescue zal ik een samen met mijn medestudent
 ## Week 1: Het plan
 
 #### In het kort:
-~~- Ik heb gekozen voor het maken van een **menu**~~
-~~- Als context heb ik **print-stylesheet** gekozen~~
-~~- Ik heb twee eisen:~~
-~~- - ik mag maar **2 kleuren gebruiken**~~
-~~- - Responsive **zonder** media queries~~
-~~- **Geen** id's of classes/ **javascript** gebruiken~~
+- Ik heb gekozen voor het maken van een **menu**
+- Als context heb ik **print-stylesheet** gekozen
+- Ik heb twee eisen:~~
+- - Ik ben lid geworden van **de one-div movement**
+- - Responsive **zonder** media queries
+- **Geen** id's of classes/ **javascript** gebruiken
 
 #### CSS technieken
 
@@ -25,7 +25,7 @@ Ik zal veel gebruik gaan maken van animaties, transities en filters.
 
 #### Inspiratie
 
-~~[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)~~
+[moodboard](https://www.pinterest.co.uk/maxhauser1997/css-tts/)
 
 # oud plan:
 
