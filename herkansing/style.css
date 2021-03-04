@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Luckiest+Guy&display=swap');
+
 body{
   width: 100vw;
   margin: 0px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(max(195px, 45vw), 1fr));
-  grid-gap: 1rem;  
+  grid-gap: 1rem;
   background: #d4baba;
 }
 
@@ -37,6 +39,20 @@ section{
   box-shadow: 0px 0px 10px #000;
   padding: 15px;
   margin-bottom: 15px;
+  font-family: monospace;
+  font-kerning: none;
+  letter-spacing: 2.25px;
+  line-height: 10px;  
+}
+
+section article:last-child:after{
+  content: 'thankyou';
+  font-family: 'Libre Barcode 39', cursive;
+  font-size: 2rem;
+  background-color: #fff;
+  text-align: center;
+  display: block;
+  padding-top: 25px;
 }
 
 @keyframes slide{
@@ -84,41 +100,48 @@ body > header {
   width: 100%;
   min-height: 465px;
   background:
+  radial-gradient(#e8e8e8 70%, transparent 30%),
+  radial-gradient(#fff 70%, transparent 30%);
+  background-size: 50% 50%, 60% 60%;
+  background-position: 15% 75%, 5% 80%;
+  background-repeat: no-repeat, no-repeat;
+  max-width: 550px;
+  display: grid;
+  grid-template-columns: auto auto 0vw;
+  grid-template-rows: 30% 30% 30%;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+body > header:after{
+  /* Het bestek*/
+  content: '';
+  background:
+  linear-gradient(90deg, #b9b6b6 50%, transparent 20%),
+  linear-gradient(90deg, #b9b6b6 50%, transparent 20%),
+  linear-gradient(90deg, #b9b6b6 50%, transparent 20%),
+  radial-gradient(#b9b6b6 50%, transparent 50%),
+  linear-gradient(#b9b6b6 50%, transparent 50%),
+  linear-gradient(#b9b6b6 50%, transparent 50%),
+  radial-gradient(#b9b6b6 50%, transparent 50%),
+  linear-gradient(45deg, #fff 50%, transparent 50%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 10% 20%,10% 20%, 10% 20%, 50% 11%,15% 80%, 15% 80%, 30% 50%, 100% 100%;
+  background-position:32% 43%,15% 43%,47% 43%,10% 55%,26% 280%, 76% 280%, 76% 60%, bottom right;
+  grid-area: 1 / col1-start / last-line / 4;
+}
+
+body > header:before{
+  /* de koffie*/
+  content: '';
+  background:
   radial-gradient(#2f2929 70%, transparent 30%),
   radial-gradient(#e8e8e8 70%, transparent 30%),
   radial-gradient(#ffffff 70%, transparent 30%),
-  radial-gradient(#e8e8e8 70%, transparent 30%),
-  radial-gradient(#ffffff 70%, transparent 30%),
-  radial-gradient(#000 70%, transparent 30%),
-  radial-gradient(#e8e8e8 70%, transparent 30%),
-  radial-gradient(#fff 70%, transparent 30%),
-  radial-gradient(#000 50%, transparent 60%),
-  linear-gradient(45deg, #fff 50%, transparent 50%);
-  background-size:
-  24% 24%,
-  15% 5%,
-  25% 25%,
-  30% 30%,
-  50% 60%,
-  30% 30%,
-  60% 70%,
-  40% 59%,
-  77% 84%,
-  50% 50%;
-  background-position:
-  97% -10%,
-  68% 3%,
-  97% -10%,
-  100% -15%,
-  45% 55%,
-  101% -15%,
-  45% 55%,
-  45% 50%,
-  45% 50%,
-  161% 84%,
-  50% 50%;
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  max-width: 550px;
+  radial-gradient(#e8e8e8 70%, transparent 30%);  
+  background-repeat: no-repeat;
+  background-size: 24% 24%, 15% 5%, 25% 25%,30% 30%;
+  background-position: 97% 4%,68% 14%, 97% 3%, 100% 0%;   
+  grid-area: 1 / col3-start / last-line / 1;
 }
 
 body > header * {
@@ -174,8 +197,6 @@ main:before{
   position: absolute;
   border-top: 29px solid #000;
   border-bottom-left-radius: 10px;
-  /* border-bottom-right-radius: 10px; */
-  /* border-top-left-radius: 50px; */
   border-top-right-radius: 50px;
   background: 
   radial-gradient(#2f2f2f 90%, transparent 10%),
@@ -326,7 +347,6 @@ main input[type="radio"] + label{
   /* de interface van het pin-apparaat */
   color: #000;
   width: 100%;
-  /* margin: 0px auto; */
   margin-top: -1px;
   z-index: 1;
   display: block;
@@ -337,4 +357,9 @@ main input[type="radio"] + label{
   position: relative;
   border: 1px;
   background: linear-gradient(to right,#000000,#000000 15%,#ffffff 15%,      #ffffff 85%,#000000 85%);
+}
+
+section article{
+  border-top: 1px dashed #000;
+  padding-bottom: 10px;
 }
