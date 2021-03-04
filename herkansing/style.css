@@ -1,0 +1,293 @@
+body{
+  width: 100vw;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(195px, 45vw), 1fr));
+  grid-gap: 1rem;  
+}
+
+
+input[type="radio"]:focus + label,
+main input[type="radio"] + label:focus{
+  background-color: lightblue;
+  outline: none;
+}
+
+section{
+  /* de bonnetjes */
+  margin-top: -1500px;
+  position: absolute;
+  z-index: 1;
+  background-image: repeating-linear-gradient(180deg, #f1f1f1 25vw, #fff 66vw);
+  max-width: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 10px #000;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+@keyframes slide{
+  /* animatie van het bonnetje */
+  from{
+    margin-top: -1500px;
+  }
+  to{
+    margin-top: 410px;
+  }
+}
+
+main input[type="radio"]:checked + label{
+  /* de label waarvan de radiobutton actief is*/
+  background: blue;
+}
+
+main input[type="radio"]:nth-child(1) + label:focus ~ section:nth-child(15),
+input[type="radio"]:nth-child(1):focus  ~ section:nth-child(15),
+
+main input[type="radio"]:nth-child(3) + label:focus ~ section:nth-child(16),
+input[type="radio"]:nth-child(3):focus ~ section:nth-child(16),
+
+main input[type="radio"]:nth-child(5) + label:focus ~ section:nth-child(17),
+input[type="radio"]:nth-child(5):focus ~ section:nth-child(17),
+
+main input[type="radio"]:nth-child(7) + label:focus ~ section:nth-child(18),
+input[type="radio"]:nth-child(7):focus ~ section:nth-child(18),
+
+main input[type="radio"]:nth-child(9) + label:focus ~ section:nth-child(19),
+input[type="radio"]:nth-child(9):focus ~ section:nth-child(19),
+
+main input[type="radio"]:nth-child(11) + label:focus ~ section:nth-child(20),
+input[type="radio"]:nth-child(11):focus ~ section:nth-child(20),
+
+main input[type="radio"]:nth-child(13) + label:focus ~ section:nth-child(21),
+input[type="radio"]:nth-child(13):focus ~ section:nth-child(21){
+  animation: slide 1s ease-in-out forwards;
+}
+
+
+body > header {
+  /* het bord */
+  position: absolute;
+  width: 100%;
+  min-height: 465px;
+  background: radial-gradient(#fff 70%, transparent 30%), radial-gradient(#e8e8e8 70%, transparent 30%), radial-gradient(#fff 70%, transparent 30%), radial-gradient(#000 50%, transparent 60%);
+  background-size: 70% 80%,80% 90%,70% 71%, 100% 110%;
+  background-position: center center, center center, center center, 51% 50%;
+  background-repeat: no-repeat;
+  max-width: 550px;
+}
+
+body > header * {
+  display: none;
+}
+
+main {
+  /* positionering van het pin-apparaat */
+  grid-column-end: -1;
+  background-color: black;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  z-index: 10;
+  margin-top: 26px;
+}
+
+
+main:after{
+  /* bovenkant van het pin-apparaat */
+  content: 'myPos';
+  color: #fff;
+  padding: 10px 25px;
+  min-height: 10px;
+  position: relative;
+  display: block;
+  font-family: arial;
+  radius: 10px;
+  bottom: 100%;
+  background: linear-gradient(0deg, black 95%, white 1%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-weight: bold;
+}
+
+main:before{
+  /* onderkant van het pin-apparaat */
+  content: '';
+  min-height: 220px;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  top: calc(100% + -75px);
+  position: absolute;
+  border-top: 29px solid #000;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background: 
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(green 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(yellow 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#ed3833 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  radial-gradient(#101010 90%, transparent 10%),
+  linear-gradient(90deg,#1f1e1e 90%, #4e4e4e00 10%);
+  background-repeat: no-repeat;
+  background-size:
+  40px 35px,
+  40px 35px,
+  40px 35px,
+  40px 45px,
+  43px 38px,
+  43px 38px,
+  43px 38px,
+  43px 48px,
+
+  40px 35px,
+  40px 35px,
+  40px 35px,
+  40px 45px,
+  43px 38px,
+  43px 38px,
+  43px 38px,
+  43px 48px,
+
+  40px 35px,
+  40px 35px,
+  40px 35px,
+  40px 45px,
+  43px 38px,
+  43px 38px,
+  43px 38px,
+  43px 48px,
+  111% 100%;
+  background-position: 
+  50px 141px,
+  100px 141px,
+  150px 141px,
+  200px 141px,
+  49px 139px,
+  99px 139px,
+  149px 139px,
+  199px 139px,
+
+  50px 81px,
+  100px 81px,
+  150px 81px,
+  200px 81px,
+  49px 79px,
+  99px 79px,
+  149px 79px,
+  199px 79px,
+
+  50px 21px,
+  100px 21px,
+  150px 21px,
+  200px 21px,
+  49px 19px,
+  99px 19px,
+  149px 19px,
+  199px 19px,
+  0 0;
+}
+
+main input[type="radio"]{
+  /* zorgt dat de radio-buttons onzichtbaar zijn */
+  position: absolute;
+  opacity: 0;
+  z-index: -1;  
+}
+
+main input[type="radio"]:nth-child(1) + label:before{
+  /* bovenkant van het schermpje */
+  content: 'payment';
+  display: block;
+  max-width: calc(200px + 5px);
+  background: #3999d3;
+  color: #fff;
+  text-align: center;
+  margin-left: -5px;
+  border-top: 15px solid #151515;
+}
+
+main input[type="radio"]:nth-child(13) + label:after{
+  /* de settings */
+  content: 'settings';
+  display: block;
+  max-width: calc(200px + 5px);
+  background: #3999d3;
+  color: #fff;
+  text-align: right;
+  margin-left: -5px;
+  border-bottom: 15px solid #696969;
+}
+
+main input[type="radio"]:nth-child(13) + label:before{
+  /* knoppen direct onder het schermpje */
+  content: '';
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: right;
+  margin-left: -5px;
+  margin-top: 51px;
+  position: absolute;
+  height: 50px;
+  background: 
+  radial-gradient(#ec0c0c 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%),
+  radial-gradient(#2f2f2f 90%, transparent 10%);
+  background-repeat: no-repeat;
+  background-size:
+  40px 25px;
+  background-position: 
+  10px 10px, 60px 10px, 110px 10px, 160px 10px;
+  z-index: 9;
+}
+
+main input[type="radio"] + label{
+  /* de interface van het pin-apparaat */
+  color: #000;
+  background-color: #fff;
+  width: 80%;
+  margin: 0px auto;
+  margin-top: -1px;
+  z-index: 9;
+  display: block;
+  max-width: 200px;
+  padding-left: 5px;
+  border-left: 15px solid #151515;
+  border-right: 15px solid #151515;
+  position: relative;
+}
