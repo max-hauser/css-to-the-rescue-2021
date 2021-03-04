@@ -154,7 +154,7 @@ main:after{
   position: relative;
   display: block;
   font-family: arial;
-  radius: 10px;
+  border-radius: 10px;
   bottom: 100%;
   background: linear-gradient(0deg, black 95%, white 1%);
   border-top-left-radius: 10px;
