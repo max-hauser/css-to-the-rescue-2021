@@ -6,6 +6,15 @@ body{
   grid-gap: 1rem;  
 }
 
+body:before {
+  /* de tafel */
+  content: '';
+  width: 100%;
+  min-height: 500px;
+  position: absolute;
+  background: #612626;
+}
+
 
 input[type="radio"]:focus + label,
 main input[type="radio"] + label:focus{
